@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "7d90149e-4ad4-4068-96e7-c439cb1ff99b",
+		"name": "GP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "showAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
